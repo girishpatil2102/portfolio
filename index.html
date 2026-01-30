@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girish Patil - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("KxIrQUrCA68XyAM82"); // Replace with your actual public key
+        })();
+</script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Girish Patil</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h3 class="greeting">Hello, I'm</h3>
+                    <h1 class="name">Girish Vilas Patil</h1>
+                    <h2 class="title">Computer Engineering Student</h2>
+                    <p class="summary">
+                        Final year Computer Engineering student passionate about technology and innovation. 
+                        I specialize in Software Engineering and love building solutions that make a difference.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="path/to/your/resume.pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/girishpatil2102" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/girishpatil2102" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/girishpatil2102" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://leetcode.com/girishpatil2102" aria-label="Email">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        </a>
+                        <a href="mailto:girishpatil2102@gmail.com" target="_blank" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="image-wrapper">
+                        <img src="images/self1.jpg" alt="Your Name">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/self2.jpg" alt="About Me">
+                </div>
+                <div class="about-text">
+    <h3>Get to know me better</h3>
+    <p>
+        I’m Girish Patil, a passionate final-year Computer Engineering student at JSPM Bhivarabai Sawant Institute of Technology & Research, Pune, with a strong foundation in Java and backend development. I specialize in building scalable full-stack applications using Spring Boot, Hibernate, React, and MySQL.
+    </p>
+    <p>
+        I’ve gained hands-on industry experience as a Java Developer Intern at Manasvi Tech Solutions, working on real-world projects & leveraging my skills. I enjoy problem-solving and have solved 150+ DSA problems on LeetCode, earning a 5-star Gold badge in Java on HackerRank.
+    </p>
+    <p>
+        I’m a continuous learner, always eager to explore new technologies and take on challenging projects.
+    </p>
+    <div class="about-info">
+        <div class="info-item">
+            <i class="fas fa-birthday-cake"></i>
+            <span><strong>Birthday:</strong> February 21, 2004</span>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span><strong>Location:</strong> Pune, Maharashtra, India</span>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span><strong>Degree:</strong> B.E. Computer Engineering</span>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-face-grin-stars"></i>
+            <span><strong>Intrests:</strong> Movies, Books, Travel, Cricket</span>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering in Computer Engineering</h3>
+                        <h4>JSPM BSIOTR, Wagholi, Pune.</h4>
+                        <span class="timeline-date">2022 - 2026</span>
+                        <p>CGPA: 8.00/10.0</p>
+                        <p>Relevant Coursework: Data Structures, Algorithms, Database Management, Object Oriented Programming, Web Development, Software Engineering, Computer Networking</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education (12th Grade)</h3>
+                        <h4>Sri Chaitanya Jr. College, Pune</h4>
+                        <span class="timeline-date">2021 - 2022</span>
+                        <p>Percentage: 84.33%</p>
+                        <p>Stream: Science (PCM - Physics, Chemistry, Mathematics)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education (10th Grade)</h3>
+                        <h4>JNV Jalgaon, Bhusawal</h4>
+                        <span class="timeline-date">2019 - 2020</span>
+                        <p>Percentage: 78.4%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-content">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-company">
+                            <div class="company-logo">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div>
+                                <h3>Java Developer Intern</h3>
+                                <h4>Manasvi Tech Solutions Pvt. Ltd.</h4>
+                            </div>
+                        </div>
+                        <div class="experience-duration">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Jan 2025 - Mar 2025</span>
+                        </div>
+                    </div>
+                    <div class="experience-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Pune, Maharashtra</span>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Gained hands-on experience in Core Java, including OOP principles, Exception Handling, Collections, JDBC, and Hibernate ORM for building scalable backend applications.</li>
+                            <li>Designed and developed a Library Management System using Java, Hibernate, and MySQL, implementing complete CRUD operations, entity mapping, and database connectivity.</li>
+                            <li>Worked with Hibernate annotations, session management, and followed layered architecture and best practices to ensure efficient and maintainable application development.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-skills">
+                        <span class="exp-tag">Java</span>
+                        <span class="exp-tag">Hibernate</span>
+                        <span class="exp-tag">MySQL</span>
+                        <span class="exp-tag">JDBC</span>
+                        <span class="exp-tag">OOP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/java.png" alt="Java Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/js.png" alt="JavaScript Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/c++.png" alt="C++ Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/python.png" alt="Python Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Web Technologies & Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/html.png" alt="HTML Logo" style="width: 70%; height: 70%;">
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/css.png" alt="CSS Logo" style="width: 90%; height: 90%;">
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/bootstrap.svg" alt="Bootstrap Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/tailwind.png" alt="Tailwind CSS Logo" style="width: 45px; height: 37px;">
+                            </div>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/react.png" alt="React Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/spring.svg" alt="Spring Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Spring</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/springboot.svg" alt="Spring Boot Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/hibernate.svg" alt="Hibernate Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Hibernate</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/jpa.png" alt="Spring Data JPA Logo" style="width: 40px; height: 45px;">
+                            </div>
+                            <span>Spring Data JPA</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/restapi.png" alt="REST API Logo" >
+                            </div>
+                            <span>REST API's</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/springsec.png" alt="Spring Logo" style="width: 40px; height: 45px;">
+                            </div>
+                            <span>Spring Security</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/microservices.png" alt="Microservices Logo" style="width: 90%; height: 90%;">
+                            </div>
+                            <span>Microservices</span>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/mysql.svg" alt="MySQL Logo" style="width: 45px; height: 40px;">
+                            </div>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/mongodb.svg" alt="MongoDB Logo" style="width: 45px; height: 47px;">
+                            </div>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & IDE's</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/git.svg" alt="Git Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/github.svg" alt="GitHub Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/docker.svg" alt="Docker Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Docker</span>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/aws.svg" alt="AWS Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>AWS</span>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/maven.svg" alt="Maven Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Maven</span>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/postman.svg" alt="Postman Logo" style="width: 55px; height: 55px;">
+                            </div>
+                            <span>Postman</span>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/intellij.svg" alt="Intellij IDEA Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Intellij IDEA</span>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/eclipse.svg" alt="Eclipse IDE Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>Eclipse IDE</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="images/vscode.svg" alt="VS Code Logo" style="width: 45px; height: 45px;">
+                            </div>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/quizapp.png" alt="Quiz App Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/girishpatil2102/QuizApp" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!-- <a href="https://project1-demo.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Quiz App</h3>
+                        <p>Full-stack quiz app with secure authentication & role-based access. It allows timed assessments and result analysis of Quizzes Taken.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">React Js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/expense.png" alt="Expense Tracker">
+                        <div class="project-overlay">
+                            <a href="https://github.com/girishpatil2102/ExpenseTracker" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!-- <a href="https://project2-demo.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Expense Tracker</h3>
+                        <p>A secure, multi-user web app to record and categorize expenses, maintain transaction history, and show real-time balances per account. </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/chatroom.png" alt="Chatroom Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/girishpatil2102/chatroom" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!-- <a href="https://project2-demo.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chatroom</h3>
+                        <p>A real-time chatroom web application built using WebSocket. It allows users to chat in a shared environment, featuring a modern tech stack with a responsive user interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">Thymeleaf</span>
+                            <span class="tag">Websockets</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">MVC</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>girishpatil2102@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9022852287</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Pune, Maharashtra, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Girish Patil. All rights reserved.</p>
+            <p>Designed & Built with <i class="fas fa-heart"></i> by Girish</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
